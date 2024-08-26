@@ -34,7 +34,7 @@ export default function AuthRoute() {
   const callback = searchParams.get("callback")
   const { access_token } = useAppSelector((state) => state.auth)
   return access_token != null ? (
-    <Navigate to={callback ?? "/my-evaluations"} />
+    <Navigate to={callback ?? "/my-portfolio"} />
   ) : (
     <Outlet />
   )
