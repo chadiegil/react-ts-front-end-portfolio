@@ -6,7 +6,7 @@ export default function Home() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    navigate(routes.auth.login)
+    navigate(routes.guest.myPortfolio)
     console.log("from home")
   }, [])
 

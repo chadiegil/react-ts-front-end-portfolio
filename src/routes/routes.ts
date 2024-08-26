@@ -8,5 +8,6 @@ export const routes = {
   },
   guest: {
     externalUsers: "/external-users",
+    myPortfolio: "/my-portfolio",
   },
 }
